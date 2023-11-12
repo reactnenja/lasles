@@ -1,5 +1,5 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  .header__hero,
+  .header,
   .navbar {
     width: 425px;
   }
@@ -10,7 +10,7 @@
     display: none;
   }
   .btn__group {
-    width: 60%;
+    width: 50%;
   }
   .btn-toogle {
     display: block;
@@ -21,7 +21,11 @@
     width: 100%;
     flex-direction: column;
   }
+  .header > .container {
+    width: 100%;
+  }
   .header__hero-left {
+    width: 100%;
     text-align: center;
   }
   .hero__heading,
