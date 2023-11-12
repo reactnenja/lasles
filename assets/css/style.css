@@ -1,0 +1,44 @@
+/* ============ STATE ============ */
+@import url("../css/states/fonts.css");
+/* ============ STATE ============ */
+
+/* ============ BASE ============ */
+@import url("../css/base/variables.css");
+@import url("../css/base/button.css");
+/* ============ BASE ============ */
+
+/* ============ PAGES ============ */
+@import url("../css/pages/headers.css");
+/* ============ PAGES ============ */
+
+/* ============ LAYOUT ============ */
+@import url("../css/layout/header-res.css");
+@import url("../css/layout/btn.res.css");
+/* ============ LAYOUT ============ */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background-color: var(--back-red);
+  color: var(--white);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Rubik";
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

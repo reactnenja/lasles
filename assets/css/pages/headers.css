@@ -1,0 +1,117 @@
+.header {
+  height: 130vh;
+}
+.navbar {
+  width: 100%;
+  margin-bottom: 88px;
+}
+
+.nav__navigation,
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__navigation {
+  padding: 50px 0px;
+}
+.nav__list {
+  list-style-type: none;
+}
+.nav__items:not(:last-child) {
+  margin-right: 40px;
+}
+.nav__link {
+  text-decoration: none;
+  color: var(--text-link);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.btn__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-toogle {
+  display: none;
+}
+/* navbar end */
+
+/* hero start */
+
+.header__hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 103px;
+}
+
+.hero__heading {
+  width: 555px;
+  margin-bottom: 20px;
+  color: #0b132a;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px; /* 140% */
+}
+.hero__paragriph {
+  width: 555px;
+  margin-bottom: 50px;
+  color: #4f5665;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+/* header hero right menu */
+.header__hero-right {
+  width: 50%;
+}
+.hero__right-image {
+  width: 100%;
+}
+.web__followers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(57px);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(229, 225, 225, 0.392);
+  padding: 37.5px 92px;
+}
+.follow-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 36.5px;
+  width: 220px;
+  height: 125px;
+  border-right: 1px solid #e3e3e3;
+  transition: all 1s;
+  padding: 20px;
+}
+.follow-item:hover {
+  box-shadow: inset 100px 100px 100px 100px var(--white);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.follow-pic {
+  padding: 15.5px;
+  background-color: #f5385443;
+  border-radius: 50%;
+}
+
+.follow-item > div > h4 {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 120% */
+  margin-bottom: 5px;
+}
