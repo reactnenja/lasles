@@ -1,118 +1,160 @@
-.header {
-  height: 130vh;
+.header-nav {
+  padding: 25px 0px;
 }
-.navbar {
-  width: 100%;
-  margin-bottom: 88px;
-  background: #fff;
-}
-
-.nav__navigation,
-.nav__list {
+.navigation,
+.nav-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav__navigation {
-  padding: 50px 0px;
+.nav-list {
+  gap: 40px;
+  list-style: none;
 }
-.nav__list {
-  list-style-type: none;
+.nav-item {
 }
-.nav__items:not(:last-child) {
-  margin-right: 40px;
-}
-.nav__link {
-  text-decoration: none;
-  color: var(--text-link);
+.nav-link {
+  color: #4f5665;
   font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
+  text-decoration: none;
 }
+.nav-list > .btn-group > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 30px;
 
-.btn__group {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  color: #4f5665;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
 }
-
 .btn-toogle {
   display: none;
 }
-/* navbar end */
 
-/* hero start */
-
-.header__hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  margin-bottom: 103px;
+/* hero  */
+.hero {
+  padding: 125px 0px;
 }
+.hero-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
 
-.hero__heading {
-  width: 555px;
-  margin-bottom: 20px;
+  align-items: center;
+}
+.hero-main-left {
+}
+.hero-main__left-heading {
   color: #0b132a;
+  margin-bottom: 20px;
   font-size: 50px;
+  font-style: normal;
   font-weight: 500;
   line-height: 70px; /* 140% */
 }
-.hero__paragriph {
-  width: 555px;
+.hero-main__left-paragriph {
   margin-bottom: 50px;
   color: #4f5665;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
 }
+.hero-main-right > img {
+  width: 611px;
+  height: 382px;
+}
 
-/* header hero right menu */
-.header__hero-right {
-  width: 50%;
-}
-.hero__right-image {
-  width: 100%;
-}
-.web__followers {
+/* windows followers */
+.follow-windows {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(57px);
+  width: 100%;
+  height: 200px;
+  border: 2px solid #e6e6e6;
   border-radius: 10px;
-  background: rgb(255, 255, 255);
-  border: 1px solid rgba(229, 225, 225, 0.392);
-  padding: 37.5px 92px;
+  padding: 19px 61px;
+  margin-bottom: 95px;
 }
-.follow-item {
+.follow__win-card {
   display: flex;
   justify-content: flex-start;
+  gap: 25px;
   align-items: center;
-  gap: 36.5px;
-  width: 220px;
+  width: 100%;
   height: 125px;
-  border-right: 1px solid #e3e3e3;
-  transition: all 1s;
-  padding: 20px;
+  padding: 0px 40px;
 }
-.follow-item:hover {
-  box-shadow: inset 100px 100px 100px 100px var(--white);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+.follow__win-card:not(:last-child) {
+  border-right: 1px solid #e6e6e6;
 }
-.follow-pic {
-  padding: 15.5px;
-  background-color: #f5385443;
-  border-radius: 50%;
+.cricle {
+  width: 75px;
+  height: 75px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffecec;
 }
 
-.follow-item > div > h4 {
-  color: #0b132a;
-  font-family: Rubik;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px; /* 120% */
-  margin-bottom: 5px;
+.cricle > img {
+  width: 24px;
+  height: 24px;
 }
+/* windows followers */
+/* check menu */
+.check-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 169px;
+  align-items: center;
+  margin-bottom: 131px;
+}
+.check-left {
+  border: 1px solid #e7e7e7;
+  width: 100%;
+}
+.check-menu > .check-left > img {
+  width: 508px;
+  height: 414px;
+}
+
+.check-heading {
+  color: #0b132a;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 50px; /* 142.857% */
+}
+.check-paragriph {
+  color: #4f5665;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+.check-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.check-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.check-items > p {
+  color: #4f5665;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+/* check menu */

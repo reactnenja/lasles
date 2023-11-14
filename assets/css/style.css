@@ -9,10 +9,14 @@
 
 /* ============ PAGES ============ */
 @import url("../css/pages/headers.css");
+@import url("../css/pages/main.css");
+@import url("../css/pages/footer.css");
 /* ============ PAGES ============ */
 
 /* ============ LAYOUT ============ */
 @import url("../css/layout/header-res.css");
+@import url("../css/layout/main-res.css");
+
 @import url("../css/layout/btn.res.css");
 /* ============ LAYOUT ============ */
 
@@ -33,6 +37,7 @@ html {
 }
 body {
   font-family: "Rubik";
+  height: 100%;
 }
 
 .container {

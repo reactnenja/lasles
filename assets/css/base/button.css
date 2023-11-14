@@ -13,6 +13,10 @@
   cursor: pointer;
   background: transparent;
   transition: all 0.9s;
+  border: none;
+  color: #f53855;
+  font-size: 16px;
+  font-weight: 500;
 }
 .btn-outline {
   border-radius: 50px;
@@ -60,4 +64,33 @@
   color: var(--back-red);
   box-shadow: 10px 10px 10px 10px rgba(245, 56, 56, 0.35);
   backdrop-filter: blur(27px);
+}
+
+.btn-md {
+  padding: 13px 62px;
+  border: 2px solid var(--back-red);
+  border-radius: 10px;
+  background: #f53838;
+  transition: all 0.9s;
+  font-size: 16px;
+  background: transparent;
+  font-weight: 700;
+}
+.btn-bg {
+  color: var(--white);
+  background-color: #f53838;
+}
+.btn-bg:hover {
+  background-color: transparent;
+  color: #f53838;
+  cursor: pointer;
+}
+.btn-md:hover {
+  background-color: #f53838;
+  color: var(--white);
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
 }
